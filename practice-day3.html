@@ -12,31 +12,49 @@
             padding: 10px;
        }
         .box{
-            width: 360px;
+            width: 100%;
             height: 180px;
-            display: flex;
-            margin: left;
-            align-items: center;
-            border-bottom: 2px solid #ccc;
+            /* display: flex; */
+            /* margin: 10px; */
+            /* align-items: center; */
+            background-color: #aaa;
+            /* border-bottom: 2px solid #ccc; */
+            /* position: relative; */
+        }
+        .box::after{
+            content: '______________';
+            display: block;
+            /* color: #000; */
+            /* position: absolute;
+            bottom: -3px; */
+            margin-bottom: -180px;
         }
         .pic{
             width: 180px;
             margin: 10px;
-        }
+        
         .pic img{
             border-radius: 50%;
         }
         .txt{
             width: 180px;
         }
+        p{
+            /* margin: 10px; */
+        }
+        p::before{
+            content: '______';
+            display: block;
+            color: #f00;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="box">
-            <div class="pic">
+            <!-- <div class="pic">
                 <img src="https://picsum.photos/160/160/?random=1">
-            </div>
+            </div> -->
             <div class="txt">
               Lorem ipsum dolor sit amet, consectetur .
             </div>
