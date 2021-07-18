@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* right: 0; */
+    background-color: #0f0;
+    padding: 10px;
+}
+header .logo{
+    margin-top: 14px;
+}
+header nav .main-nav{
+    display: flex;
+    margin-top: 25px;
+    list-style: none;
+}
+header nav .main-nav li{
+    margin-left: 36px;
+}
